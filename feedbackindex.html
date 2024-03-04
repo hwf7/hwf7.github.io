@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <main>
+        <form action="/homework3/success" method="POST">
+            <section>
+                <label for="message">Feedback Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </section>
+            <section>
+                <label for="rating">Rating:</label><br>
+                <input type="radio" id="excellent" name="rating" value="excellent" required>
+                <label for="excellent">Excellent</label><br>
+                <input type="radio" id="good" name="rating" value="good" required>
+                <label for="good">Good</label><br>
+                <input type="radio" id="average" name="rating" value="average" required>
+                <label for="average">Average</label><br>
+                <input type="radio" id="poor" name="rating" value="poor" required>
+                <label for="poor">Poor</label><br>
+            </section>
+            <button type="
