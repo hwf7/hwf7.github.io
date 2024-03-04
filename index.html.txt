@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harrison Frisbie - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -14,14 +15,26 @@
         <h2>Cybersecurity Professional</h2>
     </header>
 
-    <section id="introduction">
-        <p>
-            Hello, I am Harrison Frisbie, a cybersecurity major. I have recently joined Hackerone, a platform for penetration testers,
-            where we perform penetration testing on applications, operating systems, and servers. I'm taking this class
-            to enhance my HTML skills, as understanding code is crucial in my profession. I aim to strengthen my
-            HTML knowledge to become more proficient in this area.
-        </p>
-    </section>
+    <nav>
+        <ul>
+            <li>Summary</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Projects</li>
+            <li>Contact Information</li>
+        </ul>
+        <button id="download-resume">Download Resume</button>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <p>
+                Hello, I am Harrison Frisbie, a cybersecurity major. I have recently joined Hackerone, a platform for penetration testers,
+                where we perform penetration testing on applications, operating systems, and servers. I'm taking this class
+                to enhance my HTML skills, as understanding code is crucial in my profession. I aim to strengthen my
+                HTML knowledge to become more proficient in this area.
+            </p>
+        </section>
 
     <section id="skills">
         <h3>Skills</h3>
@@ -95,7 +108,15 @@
     <h3>Download Resume</h3>
     <p><a href="https://www.resumehelp.com/builder/finalize/25185867" target="_blank">Download Resume</a></p>
 </section>
-
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="loginindex.html">Login</a></li>
+        <li><a href="signupindex.html">Signup</a></li>
+        <li><a href="feedbackindex.html">Feedback</a></li>
+    </ul>
+</nav>
 
 </body>
 
